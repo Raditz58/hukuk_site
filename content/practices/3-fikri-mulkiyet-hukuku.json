@@ -1,0 +1,13 @@
+{
+  "title": "Fikri Mülkiyet",
+  "subtitle": "Hukuku",
+  "order": 3,
+  "image": "/assets/images/fikri-mulkiyet.jpg",
+  "description": "Marka, patent, faydalı model, endüstriyel tasarım ve telif haklarının tescili, korunması, lisanslanması ve taklitlere karşı dava süreçleri.",
+  "services": [
+    "Marka ve patent tescil / itiraz işlemleri",
+    "Fikri hak tecavüzü ve hükümsüzlük davaları",
+    "Telif hakkı ve lisans sözleşmeleri",
+    "Alan adı uyuşmazlıkları ve WIPO tahkimi"
+  ]
+}

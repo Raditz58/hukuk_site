@@ -1,0 +1,13 @@
+{
+  "title": "Ticaret",
+  "subtitle": "Hukuku",
+  "order": 1,
+  "image": "/assets/images/ticaret-hukuku.jpg",
+  "description": "Ticari işletmelerin günlük ve stratejik faaliyetlerinde karşılaştıkları hukuki risklerin yönetimi, ticari alacak takibi ve kambiyo hukuku danışmanlığı.",
+  "services": [
+    "Ticari işletme devir ve birleşmeleri",
+    "Kıymetli evrak ve çek-senet uyuşmazlıkları",
+    "Haksız rekabet davaları ve tedbir talepleri",
+    "Ticari alacakların tahsili ve icra süreçleri"
+  ]
+}

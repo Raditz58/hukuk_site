@@ -1,0 +1,72 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: tr
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  # -------------------------------------------------------------
+  # MAKALELER (ARTICLES)
+  # -------------------------------------------------------------
+  - name: "makaleler"
+    label: "Makaleler"
+    label_singular: "Makale"
+    folder: "content/articles"
+    create: true
+    slug: "{{slug}}"
+    format: "frontmatter"
+    extension: "md"
+    editor:
+      preview: true
+    fields:
+      - { label: "Makale Başlığı", name: "title", widget: "string" }
+      - { label: "Yayın Tarihi", name: "date", widget: "string", hint: "Örnek: 10 Kasım 2025" }
+      - { label: "Kategori", name: "category", widget: "select", options: ["Fikri Mülkiyet Hukuku", "Ticaret Hukuku", "Şirketler Hukuku", "Sözleşmeler Hukuku", "Otomotiv Hukuku", "Uyuşmazlık Çözümü", "Genel Hukuk"], default: "Ticaret Hukuku" }
+      - { label: "Kapak Görseli", name: "coverImage", widget: "image", default: "/assets/images/makale-ticaret.jpg" }
+      - { label: "Kısa Özet (Ana Sayfa İçin)", name: "summary", widget: "text" }
+      - { label: "Makale Metni (Zengin Metin)", name: "body", widget: "markdown" }
+
+  # -------------------------------------------------------------
+  # BRANŞLAR / UZMANLIK ALANLARI (PRACTICE AREAS)
+  # -------------------------------------------------------------
+  - name: "branslar"
+    label: "Uzmanlık Alanları"
+    label_singular: "Uzmanlık Alanı"
+    folder: "content/practices"
+    create: true
+    slug: "{{slug}}"
+    format: "json"
+    extension: "json"
+    fields:
+      - { label: "Ana Başlık (1. Satır)", name: "title", widget: "string", hint: "Örnek: Ticaret" }
+      - { label: "Alt Başlık (2. Satır)", name: "subtitle", widget: "string", default: "Hukuku" }
+      - { label: "Sıralama", name: "order", widget: "number", value_type: "int", default: 1 }
+      - { label: "Kart Görseli", name: "image", widget: "image" }
+      - { label: "Detaylı Açıklama", name: "description", widget: "text" }
+      - { label: "Hizmet Kapsamı / Maddeler", name: "services", widget: "list", field: { label: "Hizmet Kalemi", name: "item", widget: "string" } }
+
+  # -------------------------------------------------------------
+  # GENEL SİTE AYARLARI & İLETİŞİM BİLGİLERİ
+  # -------------------------------------------------------------
+  - name: "ayarlar"
+    label: "Site Ayarları & İletişim"
+    delete: false
+    files:
+      - name: "genel"
+        label: "İletişim & Büro Bilgileri"
+        file: "content/settings.json"
+        format: "json"
+        fields:
+          - { label: "Büro / Avukat Adı", name: "lawyer_name", widget: "string", default: "Av. Sümeyra Culfa" }
+          - { label: "Ünvan", name: "lawyer_title", widget: "string", default: "HUKUK & DANIŞMANLIK" }
+          - { label: "Telefon", name: "phone", widget: "string", default: "+90 212 555 00 00" }
+          - { label: "E-Posta", name: "email", widget: "string", default: "info@sumeyraculfa.com" }
+          - { label: "Adres / Konum", name: "address", widget: "string", default: "İstanbul, Türkiye" }
+          - { label: "Hero Başlık", name: "hero_headline", widget: "string", default: "Hukukta Güven." }
+          - { label: "Hero İkinci Satır", name: "hero_subheadline", widget: "string", default: "İş Dünyasında Değer." }
+          - { label: "Hero Açıklaması", name: "hero_text", widget: "text", default: "Stratejik hukuki danışmanlık ile haklarınızı koruyor, geleceğinizi güvence altına alıyoruz." }
+          - { label: "Hakkımızda Metni", name: "about_text", widget: "text", default: "Hukuk alanındaki deneyimim ve uluslararası bakış açım ile bireylerin ve kurumların yanında olarak, her durumda çözüm odaklı bir yaklaşım sunuyorum." }
+          - { label: "LinkedIn URL", name: "social_linkedin", widget: "string", default: "https://linkedin.com" }
+          - { label: "Instagram URL", name: "social_instagram", widget: "string", default: "https://instagram.com" }

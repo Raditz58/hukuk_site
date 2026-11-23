@@ -1,0 +1,13 @@
+{
+  "title": "Şirketler",
+  "subtitle": "Hukuku",
+  "order": 2,
+  "image": "/assets/images/sirketler-hukuku.jpg",
+  "description": "Anonim, limited ve yabancı ortaklı şirketlerin kuruluşundan tasfiyesine kadar her aşamada kurumsal yönetim, sermaye artırımı ve genel kurul danışmanlığı.",
+  "services": [
+    "Şirket kuruluşu ve ana sözleşme tanzimi",
+    "Olağan ve olağanüstü genel kurul süreçleri",
+    "Yönetim kurulu sorumlulukları ve ibra",
+    "Hissedarlar arası sözleşmeler (SHA) ve pay devirleri"
+  ]
+}

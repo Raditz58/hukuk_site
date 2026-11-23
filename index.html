@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Av. Sümeyra Culfa Hukuk & Danışmanlık - Ticaret Hukuku, Şirketler Hukuku, Fikri Mülkiyet, Sözleşmeler, Otomotiv Hukuku ve Uyuşmazlık Çözümü alanlarında stratejik ve güvenilir hukuki danışmanlık.">
+  <title>Av. Sümeyra Culfa | Hukuk &amp; Danışmanlık</title>
+  
+  <!-- Typography & Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Netlify Identity Widget for Decap CMS Invitations/Login -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+<div class="page">
+
+  <!-- =========================================================================
+       HERO & TOPBAR
+       ========================================================================= -->
+  <header class="hero" id="anasayfa">
+    <div class="topbar">
+      <a class="brand" href="#anasayfa">
+        <span class="monogram">S<span style="font-size: 0.8em">C</span></span>
+        <span class="brand-divider"></span>
+        <span class="brand-text">AV. SÜMEYRA CULFA<small>HUKUK &amp; DANIŞMANLIK</small></span>
+      </a>
+
+      <nav class="nav">
+        <a href="#anasayfa">Ana Sayfa</a>
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#uzmanlik">Uzmanlık Alanları</a>
+        <a href="#makaleler">Makaleler</a>
+        <a href="#iletisim">İletişim</a>
+      </nav>
+
+      <a class="btn" href="#iletisim" data-appointment-btn>Randevu Al&nbsp; →</a>
+      <button class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Menüyü Aç">☰</button>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer">
+      <button class="close-btn" id="mobile-menu-close" aria-label="Menüyü Kapat">×</button>
+      <nav class="mobile-drawer-nav">
+        <a href="#anasayfa">Ana Sayfa</a>
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#uzmanlik">Uzmanlık Alanları</a>
+        <a href="#makaleler">Makaleler</a>
+        <a href="#iletisim">İletişim</a>
+        <a href="/admin/" style="font-size: 15px; color: var(--gold); margin-top: 20px;">Yönetim Paneli Girişi →</a>
+      </nav>
+    </div>
+
+    <div class="hero-copy">
+      <div class="rule"></div>
+      <h1>Hukukta Güven.<em>İş Dünyasında Değer.</em></h1>
+      <p>Stratejik hukuki danışmanlık ile<br>haklarınızı koruyor, geleceğinizi güvence altına alıyoruz.</p>
+      <a class="btn" href="#uzmanlik">Hizmetlerimizi Keşfedin&nbsp; →</a>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       STRIP - PRACTICE AREAS SUMMARY
+       ========================================================================= -->
+  <section class="strip">
+    <div class="strip-item" onclick="selectServiceAndScroll('Ticaret Hukuku')">
+      <span class="line-icon">
+        <svg viewBox="0 0 32 32"><path d="M16 4v24M6 9h20M9 9 4 19h10L9 9Zm14 0-5 10h10L23 9ZM12 28h8"/></svg>
+      </span>
+      Ticaret<br>Hukuku
+    </div>
+    <div class="strip-item" onclick="selectServiceAndScroll('Şirketler Hukuku')">
+      <span class="line-icon">
+        <svg viewBox="0 0 32 32"><path d="M5 28h22M8 28V8h16v20M12 13h3m3 0h3m-9 5h3m3 0h3m-9 5h3m3 0h3M12 8V4h8v4"/></svg>
+      </span>
+      Şirketler<br>Hukuku
+    </div>
+    <div class="strip-item" onclick="selectServiceAndScroll('Fikri Mülkiyet Hukuku')">
+      <span class="line-icon">
+        <svg viewBox="0 0 32 32"><path d="m16 3 10 4v8c0 7-4 11-10 14C10 26 6 22 6 15V7l10-4Z M11 16l3 3 7-8"/></svg>
+      </span>
+      Fikri Mülkiyet<br>Hukuku
+    </div>
+    <div class="strip-item" onclick="selectServiceAndScroll('Sözleşmeler Hukuku')">
+      <span class="line-icon">
+        <svg viewBox="0 0 32 32"><path d="M8 4h12l5 5v19H8zM20 4v6h5M12 15h9m-9 5h9m-9 5h6"/></svg>
+      </span>
+      Sözleşmeler<br>Hukuku
+    </div>
+    <div class="strip-item" onclick="selectServiceAndScroll('Otomotiv Hukuku')">
+      <span class="line-icon">
+        <svg viewBox="0 0 32 32"><path d="M4 19h24l-2-8H8l-4 8Zm3 0v5h4v-5m10 0v5h4v-5M9 11l2-4h10l3 4"/></svg>
+      </span>
+      Otomotiv<br>Hukuku
+    </div>
+    <div class="strip-item" onclick="selectServiceAndScroll('Uyuşmazlık Çözümü')">
+      <span class="line-icon">
+        <svg viewBox="0 0 32 32"><path d="m4 12 12-7 12 7M6 13h20M8 13v12m5-12v12m6-12v12m5-12v12M5 27h22"/></svg>
+      </span>
+      Uyuşmazlık<br>Çözümü
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       ABOUT SECTION
+       ========================================================================= -->
+  <section class="about" id="hakkimizda">
+    <div class="about-photo" role="img" aria-label="Av. Sümeyra Culfa"></div>
+    <div class="about-copy">
+      <div class="kicker">Hakkımızda</div>
+      <h2>Av. Sümeyra Culfa<em>Hukuk &amp; Danışmanlık</em></h2>
+      <p>Hukuk alanındaki deneyimim ve uluslararası bakış açım ile bireylerin ve kurumların yanında olarak, her durumda çözüm odaklı bir yaklaşım sunuyorum.</p>
+      <a class="btn dark-btn" href="#iletisim">Daha Fazla&nbsp; →</a>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       PRACTICE AREAS GRID
+       ========================================================================= -->
+  <section class="practice" id="uzmanlik">
+    <div class="section-title">UZMANLIK ALANLARIMIZ</div>
+    <div class="practice-grid" id="practice-grid">
+      <!-- Populated dynamically via js/main.js or fallback -->
+      <a class="practice-card" href="#iletisim"><img src="assets/images/ticaret-hukuku.jpg" alt="Ticaret"><span>Ticaret<small>Hukuku</small></span></a>
+      <a class="practice-card" href="#iletisim"><img src="assets/images/sirketler-hukuku.jpg" alt="Şirketler"><span>Şirketler<small>Hukuku</small></span></a>
+      <a class="practice-card" href="#iletisim"><img src="assets/images/fikri-mulkiyet.jpg" alt="Fikri Mülkiyet"><span>Fikri Mülkiyet<small>Hukuku</small></span></a>
+      <a class="practice-card" href="#iletisim"><img src="assets/images/sozlesmeler-hukuku.jpg" alt="Sözleşmeler"><span>Sözleşmeler<small>Hukuku</small></span></a>
+      <a class="practice-card" href="#iletisim"><img src="assets/images/otomotiv-hukuku.jpg" alt="Otomotiv"><span>Otomotiv<small>Hukuku</small></span></a>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       VALUES STRIP
+       ========================================================================= -->
+  <section class="values">
+    <div class="value">
+      <span class="line-icon"><svg viewBox="0 0 32 32"><path d="m16 3 12 7-12 19L4 10l12-7ZM4 10h24M10 10l6 19 6-19"/></svg></span>
+      Profesyonel<br>Yaklaşım
+    </div>
+    <div class="value">
+      <span class="line-icon"><svg viewBox="0 0 32 32"><path d="M16 4v24M6 9h20M9 9 4 19h10L9 9Zm14 0-5 10h10L23 9Z"/></svg></span>
+      Stratejik<br>Danışmanlık
+    </div>
+    <div class="value">
+      <span class="line-icon"><svg viewBox="0 0 32 32"><path d="m4 11 5-4 7 5 7-5 5 4-8 10-5-3-5 3-6-10Z"/></svg></span>
+      Güvenilir<br>İş Ortağı
+    </div>
+    <div class="value">
+      <span class="line-icon"><svg viewBox="0 0 32 32"><path d="M16 4a11 11 0 1 0 0 22 11 11 0 0 0 0-22ZM11 15l3 3 7-8"/></svg></span>
+      Uluslararası<br>Deneyim
+    </div>
+    <div class="value quote">
+      “Hukuki meselelerde doğru yol,<br>daima güçlü bir danışmanlıkla başlar.”
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       ARTICLES SECTION
+       ========================================================================= -->
+  <section class="articles" id="makaleler">
+    <div class="articles-intro">
+      <div class="kicker">Makaleler</div>
+      <h2>Güncel Hukuki<br>Değerlendirmeler</h2>
+      <p>Hukuk dünyasındaki gelişmeleri analiz ettiğimiz makalelerimizi inceleyin.</p>
+      <a class="all-link" href="#makaleler" onclick="openArticleModal(window.SITE_CONTENT.articles[0]); return false;">Tüm Makaleler&nbsp; →</a>
+    </div>
+
+    <!-- Dynamic Articles Container -->
+    <div id="articles-cards-container" style="display: contents;">
+      <article class="article">
+        <img src="assets/images/makale-fikri-mulkiyet.jpg" alt="Fikri Mülkiyet Hukukunda Yeni Düzenlemeler">
+        <div class="article-body">
+          <div class="date">10 Kasım 2025</div>
+          <h3>Fikri Mülkiyet Hukukunda Yeni Düzenlemeler</h3>
+        </div>
+      </article>
+      <article class="article">
+        <img src="assets/images/makale-otomotiv.jpg" alt="Otomotiv Sektöründe Hukuki Riskler ve Çözüm Önerileri">
+        <div class="article-body">
+          <div class="date">28 Ekim 2025</div>
+          <h3>Otomotiv Sektöründe Hukuki Riskler ve Çözüm Önerileri</h3>
+        </div>
+      </article>
+      <article class="article">
+        <img src="assets/images/makale-ticaret.jpg" alt="Ticaret Hukukunda Sözleşme Yönetimi ve Riskler">
+        <div class="article-body">
+          <div class="date">15 Ekim 2025</div>
+          <h3>Ticaret Hukukunda Sözleşme Yönetimi ve Riskler</h3>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       CONTACT SECTION (WITH NETLIFY FORMS INTEGRATION)
+       ========================================================================= -->
+  <section class="contact" id="iletisim">
+    <div class="contact-layout">
+      <div class="contact-title">
+        <span>İletişim &amp; Danışmanlık</span>
+        Hukuki danışmanlık talepleriniz için bizimle iletişime geçin.
+      </div>
+
+      <!-- Netlify Forms Ready Contact Form -->
+      <div class="contact-form-wrap">
+        <form name="randevu-iletisim" id="contact-form" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
+          <input type="hidden" name="form-name" value="randevu-iletisim">
+          <p style="display:none">
+            <label>Bot filtresi: <input name="bot-field"></label>
+          </p>
+
+          <div class="form-row">
+            <input type="text" name="ad-soyad" id="form-name" placeholder="Adınız Soyadınız" required>
+            <input type="tel" name="telefon" placeholder="Telefon Numaranız" required>
+          </div>
+
+          <div class="form-row">
+            <input type="email" name="eposta" placeholder="E-Posta Adresiniz" required>
+            <select name="konu" id="form-subject">
+              <option value="Ticaret Hukuku">Ticaret Hukuku</option>
+              <option value="Şirketler Hukuku">Şirketler Hukuku</option>
+              <option value="Fikri Mülkiyet Hukuku">Fikri Mülkiyet Hukuku</option>
+              <option value="Sözleşmeler Hukuku">Sözleşmeler Hukuku</option>
+              <option value="Otomotiv Hukuku">Otomotiv Hukuku</option>
+              <option value="Uyuşmazlık Çözümü">Uyuşmazlık Çözümü</option>
+              <option value="Genel Hukuki Danışmanlık" selected>Genel Danışmanlık Talebi</option>
+            </select>
+          </div>
+
+          <textarea name="mesaj" rows="3" placeholder="Hukuki uyuşmazlığınız veya danışmanlık konunuz hakkında kısa bilgi..." required></textarea>
+
+          <button type="submit" class="form-submit-btn">Randevu &amp; Bilgi Talebi İletin &nbsp;→</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <div><span>♧</span> <a href="tel:+902125550000" class="data-phone">+90 212 555 00 00</a></div>
+        <div><span>✉</span> <a href="mailto:info@sumeyraculfa.com" class="data-email">info@sumeyraculfa.com</a></div>
+        <div><span>⌖</span> <span class="data-address">İstanbul, Türkiye</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div>Av. Sümeyra Culfa&nbsp;&nbsp; | &nbsp;&nbsp;Hukuk &amp; Danışmanlık</div>
+    <div class="footer-links">
+      <a href="#iletisim">Gizlilik Politikası</a>
+      <a href="#iletisim">KVKK Aydınlatma Metni</a>
+      <a href="#anasayfa">Site Haritası</a>
+      <a href="/admin/" style="color: var(--gold);">Yönetici Girişi (CMS)</a>
+    </div>
+    <div class="socials">
+      <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+      <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">◎</a>
+    </div>
+  </footer>
+
+</div>
+
+<!-- =========================================================================
+     MODAL OVERLAY (FOR ARTICLES & PRACTICE DETAIL READING)
+     ========================================================================= -->
+<div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true">
+  <div class="modal-card">
+    <button class="modal-close" id="modal-close" aria-label="Kapat">×</button>
+    <div id="modal-body-dynamic">
+      <!-- Injected via js/main.js -->
+    </div>
+  </div>
+</div>
+
+<!-- =========================================================================
+     SCRIPTS
+     ========================================================================= -->
+<script src="js/content-store.js"></script>
+<script src="js/main.js"></script>
+<script>
+  // Netlify Identity Redirection Handler for CMS Logins
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", function(user) {
+      if (!user) {
+        window.netlifyIdentity.on("login", function() {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+</body>
+</html>

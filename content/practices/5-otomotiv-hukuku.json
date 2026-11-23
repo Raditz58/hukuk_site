@@ -1,0 +1,13 @@
+{
+  "title": "Otomotiv",
+  "subtitle": "Hukuku",
+  "order": 5,
+  "image": "/assets/images/otomotiv-hukuku.jpg",
+  "description": "Otomotiv ana ve yan sanayi şirketleri, yetkili satıcılar ve filo yöneticileri için regülasyon uyumu, bayilik sözleşmeleri ve ürün sorumluluğu.",
+  "services": [
+    "Bayilik ve servis sözleşmelerinin düzenlenmesi",
+    "Ayıplı araç ve garanti ihtilafları",
+    "Tedarikçi sözleşmeleri ve lojistik riskler",
+    "Rekabet hukuku ve dikey anlaşmalar uyumu"
+  ]
+}
