@@ -76,3 +76,41 @@ window.SITE_CONTENT = {
 
 fs.writeFileSync('js/content-store.js', storeContent, 'utf8');
 console.log('js/content-store.js generated successfully! Articles:', articles.length, 'Practices:', practices.length);
+
+// 4. COPY TO DIST FOR COMPATIBILITY WITH NETLIFY 'dist' SETTINGS
+function copyRecursiveSync(src, dest) {
+    const exists = fs.existsSync(src);
+    const stats = exists && fs.statSync(src);
+    const isDirectory = exists && stats.isDirectory();
+    if (isDirectory) {
+        if (!fs.existsSync(dest)) {
+            fs.mkdirSync(dest, { recursive: true });
+        }
+        fs.readdirSync(src).forEach(childItemName => {
+            copyRecursiveSync(path.join(src, childItemName), path.join(dest, childItemName));
+        });
+    } else {
+        const destDir = path.dirname(dest);
+        if (!fs.existsSync(destDir)) {
+            fs.mkdirSync(destDir, { recursive: true });
+        }
+        fs.copyFileSync(src, dest);
+    }
+}
+
+const distDir = path.resolve('dist');
+if (!fs.existsSync(distDir)) {
+    fs.mkdirSync(distDir, { recursive: true });
+}
+
+// Copy website assets and pages to dist
+const itemsToCopy = ['index.html', 'admin', 'assets', 'content', 'css', 'js'];
+itemsToCopy.forEach(item => {
+    if (fs.existsSync(item)) {
+        copyRecursiveSync(item, path.join(distDir, item));
+    }
+});
+
+// Decap CMS Netlify redirects for dist
+fs.writeFileSync(path.join(distDir, '_redirects'), '/admin/* /admin/index.html 200\n', 'utf8');
+console.log('Successfully prepared dist/ directory for Netlify deployment.');

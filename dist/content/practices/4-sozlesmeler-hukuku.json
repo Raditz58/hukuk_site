@@ -1,0 +1,13 @@
+{
+  "title": "Sözleşmeler",
+  "subtitle": "Hukuku",
+  "order": 4,
+  "image": "/assets/images/sozlesmeler-hukuku.jpg",
+  "description": "Yerli ve uluslararası ticari sözleşmelerin hazırlanması, müzakeresi, risk analizi, tadili, feshi ve cezai şart hükümlerinin denetimi.",
+  "services": [
+    "Alım-satım, tedarik ve dağıtım sözleşmeleri",
+    "Gizlilik (NDA) ve iş birliği protokolleri",
+    "Franchising ve acentelik sözleşmeleri",
+    "Sözleşme ihlali ve tazminat talepleri"
+  ]
+}
