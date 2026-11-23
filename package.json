@@ -1,0 +1,8 @@
+{
+  "name": "hukuk-site",
+  "version": "1.0.0",
+  "description": "Av. Sümeyra Culfa Hukuk & Danışmanlık Web Sitesi",
+  "scripts": {
+    "build": "node build_store.js"
+  }
+}
