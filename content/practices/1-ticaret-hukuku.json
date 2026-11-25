@@ -3,12 +3,13 @@
   "subtitle": "Hukuku",
   "order": 1,
   "image": "/assets/images/businessman-touching-virtual-screen.jpg",
-  "description": "Ticaret Hukuku; ticari işletmelerin faaliyetlerini, tacirler arasındaki hukuki ilişkileri ve ticari hayatın gerektirdiği güven ile istikrar esaslarını düzenleyen özel hukuk dalıdır.",
+  "description": "Ticari işletmelerin faaliyetlerinden, ticari işlemlerden ve piyasa ilişkilerinden kaynaklanan hukuki süreçlerin yürütülmesi; ticari uyuşmazlıkların değerlendirilmesi ve çözümüne yönelik hukuki danışmanlık.",
   "services": [
-    "Ticari İşletme ve Ticari Unvan Hukuku",
-    "Haksız Rekabet Hukuku",
-    "Kıymetli Evrak Hukuku (Çek, Bono, Poliçe)",
-    "Acentelik, Bayilik ve Distribütörlük İlişkileri",
-    "Taşıma ve Sigorta Hukuku"
+    "Ticari işletmelerin faaliyetlerinden doğan hukuki uyuşmazlıklar",
+    "Haksız rekabet ve ticari itibarın korunması",
+    "Ticari alacak ve tazminat uyuşmazlıkları",
+    "Bayilik, distribütörlük ve yetkili satıcılık ilişkilerinden doğan uyuşmazlıklar",
+    "Ticaret unvanı ve işletme adının korunması",
+    "Ticari davalar ve uyuşmazlık çözüm süreçleri"
   ]
 }
