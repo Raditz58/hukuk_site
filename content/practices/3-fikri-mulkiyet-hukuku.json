@@ -2,12 +2,16 @@
   "title": "Fikri Mülkiyet",
   "subtitle": "Hukuku",
   "order": 3,
-  "image": "/assets/images/fikri-mulkiyet.jpg",
-  "description": "Marka, patent, faydalı model, endüstriyel tasarım ve telif haklarının tescili, korunması, lisanslanması ve taklitlere karşı dava süreçleri.",
+  "image": "/assets/images/3d-modern-lighting-lamp-design.jpg",
+  "description": "Marka, patent, tasarım, telif hakkı ve diğer fikrî ve sınai mülkiyet haklarının korunması, tescili, devri ve kullanımından doğan hukuki süreçlerin yürütülmesi; hak ihlallerinin önlenmesi ve uyuşmazlıkların çözümüne yönelik hukuki danışmanlık.",
   "services": [
-    "Marka ve patent tescil / itiraz işlemleri",
-    "Fikri hak tecavüzü ve hükümsüzlük davaları",
-    "Telif hakkı ve lisans sözleşmeleri",
-    "Alan adı uyuşmazlıkları ve WIPO tahkimi"
+    "Marka, patent ve tasarım haklarının korunması ve tescil süreçleri",
+    "Marka başvuruları, itirazlar ve tescil uyuşmazlıkları",
+    "Marka, lisans ve devir sözleşmelerinin hazırlanması ve incelenmesi",
+    "Telif hakları ve eser sahipliğinden doğan hukuki süreçler",
+    "Fikrî ve sınai mülkiyet haklarının ihlali ve haksız kullanımına ilişkin uyuşmazlıklar",
+    "•\tTaklit ürünler ve marka hakkına tecavüzden kaynaklanan hukuki süreçler",
+    "Ticari sırların ve know-how bilgilerinin korunması",
+    "Fikrî ve sınai mülkiyet haklarına ilişkin hukuki görüş ve danışmanlık"
   ]
 }
