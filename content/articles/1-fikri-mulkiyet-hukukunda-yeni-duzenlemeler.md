@@ -61,9 +61,7 @@ Tüketici, seçimlik haklarından biriyle birlikte Türk Borçlar Kanunu hüküm
 
 Tüketici uyuşmazlıklarında en önemli konulardan biri zamanaşımı süreleridir. 6502 sayılı Kanun, ayıplı mal ve hizmet bakımından farklı başlangıç noktaları belirlemiştir.
 
-
-
-![](/assets/images/ekran-resmi-2026-11-25-18.27.29.png)
+![](/assets/images/image_5b32e45c.jpg)
 
 Bu süreler, kanunda veya taraflar arasındaki sözleşmede daha uzun bir süre belirlenmemişse uygulanır. Ayıbın ağır kusur veya hile ile gizlenmesi hâlinde ise zamanaşımı hükümleri uygulanmaz (6502 sayılı Kanun m. 12 ve 16).
 
