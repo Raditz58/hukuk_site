@@ -28,7 +28,7 @@ window.SITE_CONTENT = {
     "title": "Ticaret",
     "subtitle": "Hukuku",
     "order": 1,
-    "image": "/assets/images/ticaret-hukuku.jpg",
+    "image": "/assets/images/tic4-1.jpg",
     "description": "Ticari işletmelerin günlük ve stratejik faaliyetlerinde karşılaştıkları hukuki risklerin yönetimi, ticari alacak takibi ve kambiyo hukuku danışmanlığı.",
     "services": [
       "Ticari işletme devir ve birleşmeleri",
