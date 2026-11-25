@@ -9,10 +9,18 @@ window.SITE_CONTENT = {
   "working_hours": "Pazartesi - Cuma: 09:00 - 18:00",
   "hero_headline": "Hukukta Güven.",
   "hero_subheadline": "İş Dünyasında Değer.",
-  "hero_text": "Stratejik hukuki danışmanlık ile haklarınızı koruyor, geleceğinizi güvence altına alıyoruz.",
+  "hero_text": "",
   "about_text": "Hukuk alanındaki deneyimim ve uluslararası bakış açım ile bireylerin ve kurumların yanında olarak, her durumda çözüm odaklı bir yaklaşım sunuyorum.",
   "social_linkedin": "https://linkedin.com",
-  "social_instagram": "https://instagram.com"
+  "social_instagram": "https://instagram.com",
+  "publication_badge": "Yayınlarımız",
+  "publication_title": "Anonim Şirketlerde Yönetim Kurulu Üyelerinin Hukuki Sorumluluğu",
+  "publication_publisher": "HUKUK YAYINLARI",
+  "publication_author": "Av. Sümeyra Culfa",
+  "publication_meta": "2024 Baskı | Kapsamlı Başvuru Eseri",
+  "publication_description": "Ticaret hukuku ve şirketler hukuku uygulamasında yönetim kurulu üyelerinin özen ve sadakat yükümlülükleri, sorumluluk rejimleri ve güncel içtihatları kapsamlı biçimde ele alan rehber çalışma.",
+  "publication_link": "https://www.seckin.com.tr",
+  "publication_button_text": "Kitabı İncele / Satın Al"
 },
   practices: [
   {

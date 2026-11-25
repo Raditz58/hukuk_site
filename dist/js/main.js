@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // 4. SETUP MODALS & INTERACTIONS
   setupModals();
   setupMobileDrawer();
-  setupNetlifyForm();
   setupSmoothScroll();
 });
 
@@ -48,18 +47,47 @@ function bindSettings(settings) {
     }
   }
 
-  if (settings.hero_text) {
-    const heroP = document.querySelector('.hero-copy p');
-    if (heroP) {
-      heroP.textContent = settings.hero_text;
-    }
-  }
-
   if (settings.about_text) {
     const aboutP = document.querySelector('.about-copy p');
     if (aboutP) {
       aboutP.textContent = settings.about_text;
     }
+  }
+
+  // Publication / Book Bindings
+  if (settings.publication_title) {
+    const el = document.getElementById('pub-title');
+    if (el) el.textContent = settings.publication_title;
+    const coverTitle = document.getElementById('pub-cover-title');
+    if (coverTitle) coverTitle.textContent = settings.publication_title;
+  }
+  if (settings.publication_badge) {
+    const el = document.getElementById('pub-badge');
+    if (el) el.textContent = settings.publication_badge;
+  }
+  if (settings.publication_publisher) {
+    const el = document.getElementById('pub-cover-publisher');
+    if (el) el.textContent = settings.publication_publisher;
+  }
+  if (settings.publication_author) {
+    const el = document.getElementById('pub-cover-author');
+    if (el) el.textContent = settings.publication_author;
+  }
+  if (settings.publication_meta) {
+    const el = document.getElementById('pub-meta');
+    if (el) el.textContent = settings.publication_meta;
+  }
+  if (settings.publication_description) {
+    const el = document.getElementById('pub-description');
+    if (el) el.textContent = settings.publication_description;
+  }
+  if (settings.publication_link) {
+    const el = document.getElementById('pub-link');
+    if (el) el.href = settings.publication_link;
+  }
+  if (settings.publication_button_text) {
+    const el = document.getElementById('pub-link');
+    if (el) el.innerHTML = `${escapeHtml(settings.publication_button_text)}&nbsp; →`;
   }
 }
 
@@ -155,24 +183,6 @@ function setupModals() {
       closeModal();
     }
   });
-
-  // Global triggers for appointment buttons
-  document.querySelectorAll('[data-appointment-btn]').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.preventDefault();
-      const service = btn.getAttribute('data-service') || '';
-      const subjectSelect = document.getElementById('form-subject');
-      if (subjectSelect && service) {
-        subjectSelect.value = service;
-      }
-      const contactSection = document.getElementById('iletisim');
-      if (contactSection) {
-        contactSection.scrollIntoView({ behavior: 'smooth' });
-        const nameInput = document.getElementById('form-name');
-        if (nameInput) setTimeout(() => nameInput.focus(), 600);
-      }
-    });
-  });
 }
 
 function openArticleModal(article) {
@@ -197,8 +207,8 @@ function openArticleModal(article) {
       ${formattedHtml}
     </div>
     <div class="modal-footer">
-      <div style="font-size:14px; color:#555;">Bu konuda hukuki danışmanlık almak ister misiniz?</div>
-      <button class="btn dark-btn" onclick="closeModal(); document.getElementById('iletisim').scrollIntoView({behavior:'smooth'});">Danışmanlık Alın &nbsp;→</button>
+      <div style="font-size:14px; color:#555;">Hukuki bilgi ve sorularınız için telefon veya e-posta yoluyla bize ulaşabilirsiniz.</div>
+      <button class="btn dark-btn" onclick="closeModal();">Kapat</button>
     </div>
   `;
 
@@ -217,7 +227,7 @@ function openPracticeModal(practice) {
     : '';
 
   modalContent.innerHTML = `
-    <div class="modal-tag">Uzmanlık Alanımız</div>
+    <div class="modal-tag">Çalışma Alanımız</div>
     <h2 class="modal-title">${escapeHtml(practice.title)} ${escapeHtml(practice.subtitle || 'Hukuku')}</h2>
     <img class="modal-cover" src="${imgSrc}" alt="${escapeHtml(practice.title)}">
     <div class="modal-content">
@@ -225,8 +235,8 @@ function openPracticeModal(practice) {
       ${servicesHtml ? `<h4>Başlıca Hizmet Kalemlerimiz:</h4>${servicesHtml}` : ''}
     </div>
     <div class="modal-footer">
-      <div style="font-size:14px; color:#555;">Bu alanda dava veya danışmanlık talebi oluşturun.</div>
-      <button class="btn dark-btn" onclick="selectServiceAndScroll('${escapeHtml(practice.title)} Hukuku');">Randevu Alın &nbsp;→</button>
+      <div style="font-size:14px; color:#555;">Detaylı bilgi için telefon veya e-posta yoluyla bize ulaşabilirsiniz.</div>
+      <button class="btn dark-btn" onclick="closeModal();">Kapat</button>
     </div>
   `;
 
@@ -236,21 +246,17 @@ function openPracticeModal(practice) {
 
 window.selectServiceAndScroll = function(serviceName) {
   closeModal();
-  const subjectSelect = document.getElementById('form-subject');
-  if (subjectSelect) {
-    // Try to find matching option
-    for (let opt of subjectSelect.options) {
-      if (opt.text.toLowerCase().includes(serviceName.toLowerCase())) {
-        subjectSelect.value = opt.value;
-        break;
-      }
-    }
-  }
-  const contactSection = document.getElementById('iletisim');
-  if (contactSection) {
-    contactSection.scrollIntoView({ behavior: 'smooth' });
-    const nameInput = document.getElementById('form-name');
-    if (nameInput) setTimeout(() => nameInput.focus(), 600);
+  const content = window.SITE_CONTENT || {};
+  const practices = content.practices || [];
+  const found = practices.find(p => 
+    `${p.title} ${p.subtitle || 'Hukuku'}`.toLowerCase().includes(serviceName.toLowerCase()) || 
+    p.title.toLowerCase().includes(serviceName.toLowerCase())
+  );
+  if (found) {
+    openPracticeModal(found);
+  } else {
+    const target = document.getElementById('calisma-alanlari') || document.getElementById('uzmanlik');
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
   }
 };
 
@@ -288,68 +294,13 @@ function setupMobileDrawer() {
   });
 }
 
-// Netlify Contact Form AJAX Handler
-function setupNetlifyForm() {
-  const form = document.getElementById('contact-form');
-  if (!form) return;
-
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const submitBtn = form.querySelector('.form-submit-btn');
-    const originalText = submitBtn ? submitBtn.innerHTML : 'Gönder';
-
-    if (submitBtn) {
-      submitBtn.disabled = true;
-      submitBtn.innerHTML = 'İletiliyor...';
-    }
-
-    const formData = new FormData(form);
-
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData).toString()
-    })
-    .then(response => {
-      showToast('Mesajınız başarıyla iletildi. En kısa sürede sizinle iletişime geçilecektir.');
-      form.reset();
-    })
-    .catch(error => {
-      // Fallback: If running locally without Netlify server, still notify user gracefully
-      showToast('Talebiniz kaydedildi. Av. Sümeyra Culfa Hukuk Bürosu sizinle iletişime geçecektir.');
-      form.reset();
-    })
-    .finally(() => {
-      if (submitBtn) {
-        submitBtn.disabled = false;
-        submitBtn.innerHTML = originalText;
-      }
-    });
-  });
-}
-
-// Toast Notification
-function showToast(message) {
-  let toast = document.getElementById('toast');
-  if (!toast) {
-    toast = document.createElement('div');
-    toast.id = 'toast';
-    toast.className = 'toast';
-    document.body.appendChild(toast);
-  }
-  toast.textContent = message;
-  toast.classList.add('show');
-  setTimeout(() => {
-    toast.classList.remove('show');
-  }, 4500);
-}
-
 // Smooth scroll
 function setupSmoothScroll() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
-      const targetId = this.getAttribute('href').slice(1);
+      let targetId = this.getAttribute('href').slice(1);
       if (!targetId) return;
+      if (targetId === 'uzmanlik') targetId = 'calisma-alanlari';
       const targetEl = document.getElementById(targetId);
       if (targetEl) {
         e.preventDefault();

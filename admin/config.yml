@@ -1,3 +1,4 @@
+local_backend: true
 backend:
   name: git-gateway
   branch: main
@@ -29,11 +30,11 @@ collections:
       - { label: "Makale Metni (Zengin Metin)", name: "body", widget: "markdown" }
 
   # -------------------------------------------------------------
-  # BRANŞLAR / UZMANLIK ALANLARI (PRACTICE AREAS)
+  # ÇALIŞMA ALANLARI (PRACTICE AREAS)
   # -------------------------------------------------------------
   - name: "branslar"
-    label: "Uzmanlık Alanları"
-    label_singular: "Uzmanlık Alanı"
+    label: "Çalışma Alanlarımız"
+    label_singular: "Çalışma Alanı"
     folder: "content/practices"
     create: true
     slug: "{{slug}}"
@@ -48,7 +49,7 @@ collections:
       - { label: "Hizmet Kapsamı / Maddeler", name: "services", widget: "list", field: { label: "Hizmet Kalemi", name: "item", widget: "string" } }
 
   # -------------------------------------------------------------
-  # GENEL SİTE AYARLARI & İLETİŞİM BİLGİLERİ
+  # GENEL SİTE AYARLARI, İLETİŞİM & YAYINLAR
   # -------------------------------------------------------------
   - name: "ayarlar"
     label: "Site Ayarları & İletişim"
@@ -66,7 +67,13 @@ collections:
           - { label: "Adres / Konum", name: "address", widget: "string", default: "İstanbul, Türkiye" }
           - { label: "Hero Başlık", name: "hero_headline", widget: "string", default: "Hukukta Güven." }
           - { label: "Hero İkinci Satır", name: "hero_subheadline", widget: "string", default: "İş Dünyasında Değer." }
-          - { label: "Hero Açıklaması", name: "hero_text", widget: "text", default: "Stratejik hukuki danışmanlık ile haklarınızı koruyor, geleceğinizi güvence altına alıyoruz." }
           - { label: "Hakkımızda Metni", name: "about_text", widget: "text", default: "Hukuk alanındaki deneyimim ve uluslararası bakış açım ile bireylerin ve kurumların yanında olarak, her durumda çözüm odaklı bir yaklaşım sunuyorum." }
+          - { label: "Yayın Rozeti / Kicker", name: "publication_badge", widget: "string", default: "Yayınlarımız" }
+          - { label: "Kitap / Eser Başlığı", name: "publication_title", widget: "string", default: "Anonim Şirketlerde Yönetim Kurulu Üyelerinin Hukuki Sorumluluğu" }
+          - { label: "Yayınevi", name: "publication_publisher", widget: "string", default: "HUKUK YAYINLARI" }
+          - { label: "Yazar(lar)", name: "publication_author", widget: "string", default: "Av. Sümeyra Culfa" }
+          - { label: "Yayın Bilgisi (Yıl / Baskı)", name: "publication_meta", widget: "string", default: "2024 Baskı | Kapsamlı Başvuru Eseri" }
+          - { label: "Kitap Tanıtımı / Açıklama", name: "publication_description", widget: "text", default: "Ticaret hukuku ve şirketler hukuku uygulamasında yönetim kurulu üyelerinin özen ve sadakat yükümlülükleri, sorumluluk rejimleri ve güncel içtihatları kapsamlı biçimde ele alan rehber çalışma." }
+          - { label: "Kitap Satış / İnceleme Linki", name: "publication_link", widget: "string", default: "https://www.seckin.com.tr" }
           - { label: "LinkedIn URL", name: "social_linkedin", widget: "string", default: "https://linkedin.com" }
           - { label: "Instagram URL", name: "social_instagram", widget: "string", default: "https://instagram.com" }
