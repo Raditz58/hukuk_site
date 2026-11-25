@@ -1,21 +1,122 @@
 ---
-title: "Fikri Mülkiyet Hukukunda Yeni Düzenlemeler"
-date: "10 Kasım 2025"
-category: "Fikri Mülkiyet Hukuku"
-coverImage: "/assets/images/makale-fikri-mulkiyet.jpg"
-summary: "Dijitalleşen dünyada marka, patent ve telif haklarının korunmasına ilişkin güncel yasal değişiklikler ve içtihatlar."
+title: Ayıplı Mal ve Ayıplı Hizmet Nedeniyle Tüketici Hakları ve Başvuru Süreleri
+date: 20 Kasım 2026
+category: Genel Hukuk
+coverImage: /assets/images/4e76de4c-2fa4-4a5a-aa61-a50d2e7fb235.jpg
+summary: Ayıplı mal ve ayıplı hizmet karşısında tüketicilerin sahip olduğu
+  haklar; ürün iadesi, ücretsiz onarım, bedel indirimi ve tazminat talepleri.
+  6502 sayılı Tüketicinin Korunması Hakkında Kanun kapsamında zamanaşımı
+  süreleri, tüketici hakem heyeti başvurusu, tüketici mahkemesi ve arabuluculuk
+  süreçleri.
 ---
+**Ayıplı Mal ve Ayıplı Hizmet Nedeniyle Tüketici Hakları ve Başvuru Süreleri**
 
-### Dijital Çağda Fikri Mülkiyetin Önemi
+Tüketici Hukuku | Ayıplı Mal ve Hizmet | Türkiye
 
-Teknolojik gelişmeler ve sınır ötesi dijital ticaretin ivme kazanması, fikri ve sınai mülkiyet haklarının korunmasını kurumlar için hayati bir öncelik haline getirmiştir. 6769 sayılı Sınai Mülkiyet Kanunu (SMK) ve ilgili uluslararası mevzuat çerçevesinde, markaların, tasarımların ve patentlerin etkin bir şekilde tescil edilmesi yalnızca hukuki bir gereklilik değil; şirketin piyasa değerini artıran stratejik bir kalkandır.
+**Av. Sümeyra CULFA**
 
-#### Öne Çıkan Güncel Gelişmeler
+Satın alınan bir ürünün arızalı çıkması, vaat edilen özellikleri taşımaması veya alınan hizmetin gereği gibi sunulmaması tüketiciler açısından hem ekonomik kayba hem de zaman kaybına neden olabilir. Bu gibi durumlarda tüketicinin hangi haklara sahip olduğu ve bu hakları ne kadar süre içinde kullanabileceği önem taşır.
 
-1. **Çevrimiçi Marka İhlalleri ve Alan Adı Uyuşmazlıkları:** E-ticaret platformlarında ve sosyal medya kanallarında taklit ürünlerin satışına karşı ihtiyati tedbir süreçleri ve arama motorları nezdinde içerik kaldırma mekanizmaları hız kazanmıştır.
-2. **Yapay Zeka ve Eser Sahipliği:** Üretken yapay zeka araçlarıyla meydana getirilen tasarımların ve kodların telif hukuku kapsamındaki konumu hakkında Yargıtay ve uluslararası mahkemelerin oluşturduğu yeni emsal kararlar önem arz etmektedir.
-3. **Patent Haklarında Hızlı Tescil ve Koruma:** Ar-Ge yatırımlarının korunmasında faydalı model ve patent başvuru süreçlerinin titizlikle yürütülmesi, haksız rekabet davalarında kritik avantaj sağlamaktadır.
+6502 sayılı Tüketicinin Korunması Hakkında Kanun, ayıplı mal ve ayıplı hizmet nedeniyle tüketicilere çeşitli seçimlik haklar tanımaktadır. Ancak bu haklardan yararlanabilmek için ayıbın niteliğinin, sorumluluğun kapsamının ve kanunda öngörülen sürelerin doğru değerlendirilmesi gerekir. 
 
-> *“Fikri mülkiyet haklarınızı zamanında tescil ettirmek, gelecekteki olası hak kayıplarını ve yüksek maliyetli dava süreçlerini önlemenin en güvenilir yoludur.”*
+**1. Ayıplı Mal ve Ayıplı Hizmet Nedir?**
 
-Büromuz, tescil başvurularından lisans sözleşmelerinin akdedilmesine, hükümsüzlük davalarından marka hakkına tecavüz ihtarlarına kadar geniş bir spektrumda müvekkillerine proaktif danışmanlık sunmaktadır.
+**Ayıplı mal,** tüketiciye teslim edildiği sırada taraflarca kararlaştırılan özellikleri taşımayan veya objektif olarak sahip olması gereken özelliklerden yoksun olan maldır (6502 sayılı Kanun m. 8).
+
+Bir ürünün ambalajında, etiketinde, kullanım kılavuzunda, internet sitesinde veya reklamlarında belirtilen özellikleri taşımaması; tüketicinin makul olarak beklediği faydayı azaltan ya da ortadan kaldıran maddi, hukuki veya ekonomik eksiklikler içermesi de ayıplı mal olarak değerlendirilebilir.
+
+Örneğin satın alınan bir elektronik cihazın kısa süre içerisinde arızalanması, yeni bir aracın üretim kaynaklı teknik sorunlar barındırması veya mobilyanın sipariş edilen malzeme ve ölçülere uygun üretilmemesi ayıplı mal kapsamında değerlendirilebilir.
+
+**Ayıplı hizmet** ise sözleşmede belirlenen süre içinde başlamayan veya kararlaştırılan ve objektif olarak sahip olması gereken özellikleri taşımayan hizmettir (6502 sayılı Kanun m. 13). Hizmetin reklam ve tanıtımlarda belirtilen nitelikleri taşımaması ya da tüketicinin makul olarak beklediği faydayı sağlamaması da ayıplı hizmet oluşturabilir.
+
+Örneğin araç bakımının gereği gibi yapılmaması, tadilat işinin sözleşmeye uygun tamamlanmaması veya ücret karşılığında sunulan bir hizmetin vaat edilen kapsam ve kalitede yerine getirilmemesi bu kapsamda değerlendirilebilir.
+
+**2. Ayıplı Mal ve Hizmet Hâlinde Tüketicinin Hakları**
+
+Kanun, ayıplı mal ve hizmet nedeniyle tüketiciye dört temel seçimlik hak tanımaktadır.
+
+**Ayıplı mal hâlinde tüketici:**
+
+* Satılanı geri vermeye hazır olduğunu bildirerek sözleşmeden dönme,
+* Malı alıkoyarak ayıp oranında satış bedelinden indirim isteme,
+* Ücretsiz onarım talep etme,
+* Malın ayıpsız misliyle değiştirilmesini isteme
+
+haklarından birini kullanabilir (6502 sayılı Kanun m. 11).
+
+Tüketicinin tercih ettiği talebin yerine getirilmesi esastır. Ücretsiz onarım ve ayıpsız misliyle değiştirme taleplerinin yerine getirilmesi satıcı açısından orantısız güçlük oluşturuyorsa tüketici, diğer seçimlik haklarından yararlanabilir. Ayrıca ücretsiz onarım veya değişim talebi, kural olarak en geç 30 iş günü içinde; konut ve tatil amaçlı taşınmazlarda ise 60 iş günü içinde yerine getirilmelidir. İlgili mevzuatta belirli ürünler için özel tamir süreleri öngörülmüşse bu süreler dikkate alınır.
+
+**Ayıplı hizmet hâlinde ise tüketici:**
+
+* Hizmetin yeniden görülmesini,
+* Hizmet sonucunda ortaya çıkan eserin ücretsiz onarılmasını,
+* Ayıp oranında bedelden indirim yapılmasını,
+* Sözleşmeden dönmeyi
+
+talep edebilir (6502 sayılı Kanun m. 15).
+
+Tüketici, seçimlik haklarından biriyle birlikte Türk Borçlar Kanunu hükümleri çerçevesinde tazminat da isteyebilir. Seçilen hakkın yerine getirilmesi için ortaya çıkan masraflar satıcı veya sağlayıcı tarafından karşılanmalıdır.
+
+**3. Ayıplı Mal ve Hizmette Başvuru Süreleri**
+
+Tüketici uyuşmazlıklarında en önemli konulardan biri zamanaşımı süreleridir. 6502 sayılı Kanun, ayıplı mal ve hizmet bakımından farklı başlangıç noktaları belirlemiştir.
+
+
+
+![](/assets/images/ekran-resmi-2026-11-25-18.27.29.png)
+
+Bu süreler, kanunda veya taraflar arasındaki sözleşmede daha uzun bir süre belirlenmemişse uygulanır. Ayıbın ağır kusur veya hile ile gizlenmesi hâlinde ise zamanaşımı hükümleri uygulanmaz (6502 sayılı Kanun m. 12 ve 16).
+
+**Altı aylık süre ile iki yıllık zamanaşımı birbirine karıştırılmamalıdır.** 6502 sayılı Kanun'un 10. maddesine göre teslim tarihinden itibaren ilk altı ay içinde ortaya çıkan ayıpların teslim anında mevcut olduğu kabul edilir. Bu durumda malın ayıplı olmadığını ispat yükü satıcıya aittir. Ancak bu karine, malın veya ayıbın niteliğiyle bağdaşmadığı durumlarda uygulanmaz.
+
+Altı aylık sürenin geçmesi, tüketicinin ayıplı mala ilişkin haklarını kaybettiği anlamına gelmez. Tüketici, iki yıllık zamanaşımı süresi içinde haklarını kullanabilir; ancak bu süreden sonra ayıbın teslim anında mevcut olduğunu ispatlaması gerekebilir.
+
+Ayrıca tüketicinin sözleşmenin kurulduğu sırada bildiği veya bilmesinin kendisinden beklendiği ayıplar bakımından seçimlik haklar kullanılamaz.
+
+**4. Tüketici Hakları Nasıl Kullanılır? Nereye Başvurulur?**
+
+Ayıplı mal veya hizmetle karşılaşan tüketicinin öncelikle ayıbı ve talep ettiği çözümü satıcıya veya sağlayıcıya yazılı olarak bildirmesi, uyuşmazlığın ispatı açısından önemlidir. Fatura, satış belgesi, servis kayıtları, fotoğraflar, yazışmalar ve varsa teknik inceleme raporları muhafaza edilmelidir.
+
+Uyuşmazlığın çözümü için başvurulabilecek merciler, uyuşmazlığın parasal değerine göre belirlenir.
+
+**Tüketici Hakem Heyeti**
+
+2026 yılı itibarıyla değeri 186.000 TL'nin altında bulunan tüketici uyuşmazlıklarında tüketici hakem heyetine başvuru yapılması zorunludur. Başvurular, tüketicinin yerleşim yerinin bulunduğu veya tüketici işleminin yapıldığı yerdeki tüketici hakem heyetine yapılabilir.
+
+Başvurular, e-Devlet üzerinden Tüketici Bilgi Sistemi (TÜBİS) aracılığıyla veya elden ve posta yoluyla gerçekleştirilebilir.
+
+**Tüketici Mahkemesi ve Arabuluculuk**
+
+Uyuşmazlık değerinin 186.000 TL ve üzerinde olması hâlinde tüketici hakem heyetine başvurulamaz. Bu uyuşmazlıklarda, kanuni istisnalar saklı kalmak üzere, tüketici mahkemesinde dava açılmadan önce zorunlu arabuluculuk sürecinin tamamlanması gerekir.
+
+Tüketici mahkemesinin bulunmadığı yerlerde davalara asliye hukuk mahkemeleri tüketici mahkemesi sıfatıyla bakar.
+
+Tüketici hakem heyeti kararlarına karşı ise kararın tebliğinden itibaren 15 gün içinde tüketici mahkemesine itiraz edilebilir. Bu süre hak kaybına yol açabileceğinden kararın tebliğ tarihi dikkatle takip edilmelidir.
+
+**5. Tüketiciler Nelere Dikkat Etmelidir?**
+
+Ayıplı mal veya hizmet nedeniyle hak kaybı yaşanmaması için tüketicilerin şu hususlara dikkat etmesi gerekir:
+
+* Satın alma ve hizmet belgeleri, faturalar ve ödeme kayıtları saklanmalıdır.
+* Ayıp fark edildiğinde fotoğraf, video, servis kaydı ve yazışma gibi deliller muhafaza edilmelidir.
+* Talep edilen seçimlik hak, satıcı veya sağlayıcıya yazılı ve ispatlanabilir şekilde bildirilmelidir.
+* Ücretsiz onarım veya değişim talebinde bulunulmuşsa kanuni süreler takip edilmelidir.
+* Zamanaşımı süresi ile altı aylık ispat karinesi birbirinden ayrı değerlendirilmelidir.
+* Tüketici hakem heyeti kararına itiraz edilecekse 15 günlük süre kaçırılmamalıdır.
+
+**Sonuç ve Değerlendirme**
+
+Ayıplı mal veya hizmet nedeniyle tüketicinin sahip olduğu haklar, yalnızca ürünün iadesi veya ücretsiz onarımla sınırlı değildir. Kanun, somut olayın özelliklerine göre bedel indirimi, sözleşmeden dönme, değişim, hizmetin yeniden görülmesi ve tazminat gibi çeşitli hukuki imkânlar sunmaktadır.
+
+Ancak bu hakların etkin şekilde kullanılabilmesi, ayıbın doğru tespit edilmesine, uygun seçimlik hakkın belirlenmesine ve başvuru sürelerinin takip edilmesine bağlıdır.
+
+Özellikle iki yıllık zamanaşımı süresi, ilk altı aylık ispat karinesi ve tüketici hakem heyetlerine ilişkin parasal sınırların birbirinden farklı hukuki sonuçlar doğurduğu unutulmamalıdır.
+
+Tüketicinin hak kaybına uğramaması için uyuşmazlığın niteliğine uygun başvuru yolunun zamanında belirlenmesi ve gerekli delillerin korunması önem taşır.
+
+**Hukuki Dayanaklar ve Kaynakça**
+
+* 6502 sayılı Tüketicinin Korunması Hakkında Kanun, m. 3, 8-16, 66-70, 73 ve 73/A.
+* 6098 sayılı Türk Borçlar Kanunu.
+* Tüketici Hakem Heyetleri Yönetmeliği.
+* 23.12.2025 tarihli ve 33116 sayılı Resmî Gazete'de yayımlanan, 2026 yılı tüketici hakem heyeti parasal sınırlarına ilişkin Tebliğ.
