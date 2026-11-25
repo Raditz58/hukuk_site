@@ -3,11 +3,12 @@
   "subtitle": "Hukuku",
   "order": 1,
   "image": "/assets/images/tic4-1.jpg",
-  "description": "Ticari işletmelerin günlük ve stratejik faaliyetlerinde karşılaştıkları hukuki risklerin yönetimi, ticari alacak takibi ve kambiyo hukuku danışmanlığı.",
+  "description": "Ticaret Hukuku; üretim, değişim ve tüketime yönelik ticari faaliyetleri, ticari işletmelerin işleyişini ve tacirler arasındaki hukuki ilişkileri düzenleyen özel hukuk dalıdır. Türk Ticaret Kanunu temelinde şekillenen bu alan; ticari hayatın gerektirdiği hız, güven ve istikrar ilkelerini korumayı amaçlar.\nTacir sıfatına bağlı hukuki sorumlulukların belirlenmesi, ticari defter ve belgelerin ispat gücü, ticari iş karinesi ve ticari hükümlerin uygulanma sırası gibi teknik esaslar; ticari uyuşmazlıkların genel hükümlerden farklı ve özel bir hukuki değerlendirmeye tabi tutulmasını zorunlu kılar.",
   "services": [
-    "Ticari işletme devir ve birleşmeleri",
-    "Kıymetli evrak ve çek-senet uyuşmazlıkları",
-    "Haksız rekabet davaları ve tedbir talepleri",
-    "Ticari alacakların tahsili ve icra süreçleri"
+    "Ticari İşletme Hukuku: Ticari işletmenin unsurları, devri, rehni, şube kavramı ile ticari unvan ve işletme adının hukuki niteliği ve korunması.",
+    "Haksız Rekabet Hukuku: İktisadi rekabetin dürüstlük kuralına aykırı davranışlarla bozulmasının önlenmesi, haksız rekabet hallerinin tespiti ve hukuki sonuçları.",
+    "Kıymetli Evrak Hukuku: Çek, bono ve poliçe başta olmak üzere kambiyo senetlerinin şekil şartları, devir usulleri, zamanaşımı süreleri ve kambiyo hukukuna özgü def'iler.",
+    "Ticari Temsil ve Aracılık İlişkileri: Ticari mümessil, ticari vekil, acente, simsar ve komisyoncu gibi tacir yardımcılarının yetki sınırları ve tarafların karşılıklı yükümlülükleri.",
+    "• Taşıma ve Sigorta Hukuku: Eşya ve yolcu taşıma sözleşmelerinden doğan sorumluluk rejimleri ile mal ve sorumluluk sigortalarına ilişkin hukuki esaslar."
   ]
 }
