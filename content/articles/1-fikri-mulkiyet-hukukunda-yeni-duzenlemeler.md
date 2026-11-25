@@ -61,39 +61,7 @@ Tüketici, seçimlik haklarından biriyle birlikte Türk Borçlar Kanunu hüküm
 
 Tüketici uyuşmazlıklarında en önemli konulardan biri zamanaşımı süreleridir. 6502 sayılı Kanun, ayıplı mal ve hizmet bakımından farklı başlangıç noktaları belirlemiştir.
 
-![](<div style="overflow-x: auto; margin: 24px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-  <table style="width: 100%; border-collapse: collapse; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
-    <thead>
-      <tr style="background-color: #0f2537; color: #ffffff; text-align: left;">
-        <th style="padding: 14px 18px; font-weight: 600; font-size: 15px; border-bottom: 2px solid #0a1926;">Uyuşmazlık Türü</th>
-        <th style="padding: 14px 18px; font-weight: 600; font-size: 15px; border-bottom: 2px solid #0a1926;">Zamanaşımı Süresi</th>
-      </tr>
-    </thead>
-    <tbody style="color: #1e293b; font-size: 14px;">
-      <tr style="background-color: #ffffff; border-bottom: 1px solid #e2e8f0;">
-        <td style="padding: 13px 18px; font-weight: 500;">Ayıplı mal</td>
-        <td style="padding: 13px 18px;">Teslim tarihinden itibaren 2 yıl</td>
-      </tr>
-      <tr style="background-color: #f8fafc; border-bottom: 1px solid #e2e8f0;">
-        <td style="padding: 13px 18px; font-weight: 500;">Konut ve tatil amaçlı taşınmaz</td>
-        <td style="padding: 13px 18px;">Teslim tarihinden itibaren 5 yıl</td>
-      </tr>
-      <tr style="background-color: #ffffff; border-bottom: 1px solid #e2e8f0;">
-        <td style="padding: 13px 18px; font-weight: 500;">İkinci el mal</td>
-        <td style="padding: 13px 18px;">En az 1 yıl</td>
-      </tr>
-      <tr style="background-color: #f8fafc; border-bottom: 1px solid #e2e8f0;">
-        <td style="padding: 13px 18px; font-weight: 500;">İkinci el konut ve tatil amaçlı taşınmaz</td>
-        <td style="padding: 13px 18px;">En az 3 yıl</td>
-      </tr>
-      <tr style="background-color: #ffffff;">
-        <td style="padding: 13px 18px; font-weight: 500;">Ayıplı hizmet</td>
-        <td style="padding: 13px 18px;">Hizmetin ifasından itibaren 2 yıl</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-)
+![](/assets/images/image_5b32e45c.jpg)
 
 Bu süreler, kanunda veya taraflar arasındaki sözleşmede daha uzun bir süre belirlenmemişse uygulanır. Ayıbın ağır kusur veya hile ile gizlenmesi hâlinde ise zamanaşımı hükümleri uygulanmaz (6502 sayılı Kanun m. 12 ve 16).
 
