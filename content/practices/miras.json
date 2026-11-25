@@ -1,0 +1,17 @@
+{
+  "title": "Miras",
+  "subtitle": "Hukuku",
+  "order": 7,
+  "image": "/assets/images/closeup-shot-person-thinking-buying-selling-house.jpg",
+  "description": "Miras bırakanın vefatıyla ortaya çıkan hukuki ilişkilerin, mirasçıların haklarının ve terekeye ilişkin uyuşmazlıkların değerlendirilmesi; miras hukukundan kaynaklanan süreçlerin yürütülmesi.",
+  "services": [
+    "Veraset İlamı (Mirasçılık Belgesi) İşlemleri",
+    "Vasiyetname ve Miras Sözleşmesi Hazırlanması:",
+    "Muris Muvazaası (Mirastan Mal Kaçırma) Davaları",
+    "Tenkis ve Denkleştirme Davaları",
+    "Mirasın Paylaşımı ve Ortaklığın Giderilmesi (İzale-i Şuyu)",
+    "Terekenin Tespiti ve Korunması",
+    "Reddi Miras (Mirasın Reddi) İşlemleri",
+    "Miras Sebebiyle İstihkak Davaları"
+  ]
+}
