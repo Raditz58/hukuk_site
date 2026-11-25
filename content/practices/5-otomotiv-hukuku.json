@@ -1,13 +1,15 @@
 {
-  "title": "Otomotiv",
+  "title": "Tüketici",
   "subtitle": "Hukuku",
   "order": 5,
-  "image": "/assets/images/otomotiv-hukuku.jpg",
-  "description": "Otomotiv ana ve yan sanayi şirketleri, yetkili satıcılar ve filo yöneticileri için regülasyon uyumu, bayilik sözleşmeleri ve ürün sorumluluğu.",
+  "image": "/assets/images/haruudu-shopping-bag-10549969_1920.jpg",
+  "description": "Tüketici işlemlerinden kaynaklanan hukuki ilişkilerin değerlendirilmesi, tüketici haklarının korunması, uyuşmazlıkların çözümü ve tüketici mevzuatına uyum süreçlerinin yürütülmesi.",
   "services": [
-    "Bayilik ve servis sözleşmelerinin düzenlenmesi",
-    "Ayıplı araç ve garanti ihtilafları",
-    "Tedarikçi sözleşmeleri ve lojistik riskler",
-    "Rekabet hukuku ve dikey anlaşmalar uyumu"
+    "Ayıplı mal ve hizmetlerden doğan uyuşmazlıklar",
+    "Tüketici sözleşmelerinin hazırlanması ve incelenmesi",
+    "Tüketici hakem heyeti ve tüketici mahkemesi süreçleri",
+    "Mesafeli satış ve abonelik sözleşmeleri",
+    "Haksız şartlar ve tüketici mevzuatına aykırı uygulamalar",
+    "Bedel iadesi, ürün değişimi ve tazminat talepleri"
   ]
 }
