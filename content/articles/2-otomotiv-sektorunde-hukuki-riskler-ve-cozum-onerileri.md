@@ -3,7 +3,7 @@ title: Marka Tescili Neden Önemlidir? Marka Hakkına Tecavüz Hâlinde Başvuru
   Hukuki Yollar
 date: 20 Ekim 2026
 category: Fikri Mülkiyet Hukuku
-coverImage: /assets/images/makale-otomotiv.jpg
+coverImage: /assets/images/7.jpeg
 summary: Marka tescilinin önemi, marka hakkının korunması ve izinsiz marka
   kullanımına karşı başvurulabilecek hukuki yollar. 6769 sayılı Sınai Mülkiyet
   Kanunu kapsamında marka tescili, marka hakkına tecavüz, taklit ürünler,
