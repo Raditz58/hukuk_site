@@ -2,13 +2,13 @@
   "title": "Ticaret",
   "subtitle": "Hukuku",
   "order": 1,
-  "image": "/assets/images/tic4-1.jpg",
-  "description": "Ticaret Hukuku; üretim, değişim ve tüketime yönelik ticari faaliyetleri, ticari işletmelerin işleyişini ve tacirler arasındaki hukuki ilişkileri düzenleyen özel hukuk dalıdır. Türk Ticaret Kanunu temelinde şekillenen bu alan; ticari hayatın gerektirdiği hız, güven ve istikrar ilkelerini korumayı amaçlar.\nTacir sıfatına bağlı hukuki sorumlulukların belirlenmesi, ticari defter ve belgelerin ispat gücü, ticari iş karinesi ve ticari hükümlerin uygulanma sırası gibi teknik esaslar; ticari uyuşmazlıkların genel hükümlerden farklı ve özel bir hukuki değerlendirmeye tabi tutulmasını zorunlu kılar.",
+  "image": "/assets/images/businessman-touching-virtual-screen.jpg",
+  "description": "Ticaret Hukuku; ticari işletmelerin faaliyetlerini, tacirler arasındaki hukuki ilişkileri ve ticari hayatın gerektirdiği güven ile istikrar esaslarını düzenleyen özel hukuk dalıdır.",
   "services": [
-    "Ticari İşletme Hukuku: Ticari işletmenin unsurları, devri, rehni, şube kavramı ile ticari unvan ve işletme adının hukuki niteliği ve korunması.",
-    "Haksız Rekabet Hukuku: İktisadi rekabetin dürüstlük kuralına aykırı davranışlarla bozulmasının önlenmesi, haksız rekabet hallerinin tespiti ve hukuki sonuçları.",
-    "Kıymetli Evrak Hukuku: Çek, bono ve poliçe başta olmak üzere kambiyo senetlerinin şekil şartları, devir usulleri, zamanaşımı süreleri ve kambiyo hukukuna özgü def'iler.",
-    "Ticari Temsil ve Aracılık İlişkileri: Ticari mümessil, ticari vekil, acente, simsar ve komisyoncu gibi tacir yardımcılarının yetki sınırları ve tarafların karşılıklı yükümlülükleri.",
-    "• Taşıma ve Sigorta Hukuku: Eşya ve yolcu taşıma sözleşmelerinden doğan sorumluluk rejimleri ile mal ve sorumluluk sigortalarına ilişkin hukuki esaslar."
+    "Ticari İşletme ve Ticari Unvan Hukuku",
+    "Haksız Rekabet Hukuku",
+    "Kıymetli Evrak Hukuku (Çek, Bono, Poliçe)",
+    "Acentelik, Bayilik ve Distribütörlük İlişkileri",
+    "Taşıma ve Sigorta Hukuku"
   ]
 }
