@@ -3,11 +3,16 @@
   "subtitle": "Hukuku",
   "order": 2,
   "image": "/assets/images/patricklfc93-new-york-7781184_1920.jpg",
-  "description": "Anonim, limited ve yabancı ortaklı şirketlerin kuruluşundan tasfiyesine kadar her aşamada kurumsal yönetim, sermaye artırımı ve genel kurul danışmanlığı.",
+  "description": "Şirketlerin kuruluşundan sona ermesine kadar geçen süreçte ortaya çıkan hukuki ilişkilerin, ortaklık yapılarının ve şirket organlarının faaliyetlerinin ilgili mevzuat çerçevesinde değerlendirilmesi; şirket faaliyetlerinden kaynaklanan hukuki süreçlerin yürütülmesi.",
   "services": [
-    "Şirket kuruluşu ve ana sözleşme tanzimi",
-    "Olağan ve olağanüstü genel kurul süreçleri",
-    "Yönetim kurulu sorumlulukları ve ibra",
-    "Hissedarlar arası sözleşmeler (SHA) ve pay devirleri"
+    "Anonim ve limited şirketlerin kuruluş işlemleri",
+    "Şirket esas sözleşmelerinin hazırlanması ve değiştirilmesi",
+    "Pay devri ve pay sahipliği ilişkileri",
+    "Sermaye artırımı ve azaltımı işlemleri",
+    "Genel kurul ve yönetim kurulu süreçleri",
+    "Ortaklar arasındaki uyuşmazlıklar",
+    "Yönetici ve müdürlerin hukuki sorumluluğu",
+    "Birleşme, bölünme ve tür değiştirme işlemleri",
+    "Şirketin feshi, sona ermesi ve tasfiye süreçleri"
   ]
 }
