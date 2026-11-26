@@ -1,0 +1,19 @@
+{
+  "title": "Borçlar",
+  "subtitle": "Hukuku",
+  "order": 8,
+  "image": "/assets/images/anaterate-ai-generated-8223420_1920.jpg",
+  "description": "Sözleşmeden, haksız fiilden ve sebepsiz zenginleşmeden doğan borç ilişkilerinin kurulması, ifası ve sona ermesinden kaynaklanan hukuki uyuşmazlıkların değerlendirilmesi; alacak ve tazminat taleplerine ilişkin hukuki süreçlerin yürütülmesi.",
+  "services": [
+    "Sözleşmeden doğan alacak ve tazminat uyuşmazlıkları",
+    "Borcun hiç veya gereği gibi ifa edilmemesinden kaynaklanan uyuşmazlıklar",
+    "Borçlu temerrüdü ve ifa imkânsızlığı",
+    "Sözleşmeye aykırılık ve sözleşmenin uyarlanması",
+    "Haksız fiilden kaynaklanan maddi ve manevi tazminat davaları",
+    "Sebepsiz zenginleşmeden doğan alacak uyuşmazlıkları",
+    "Vekâletsiz iş görmeden kaynaklanan uyuşmazlıklar",
+    "Kefalet ve şahsi teminat ilişkilerinden doğan uyuşmazlıklar",
+    "Alacağın devri ve borcun üstlenilmesinden kaynaklanan uyuşmazlıklar",
+    "Kusursuz sorumluluk hâllerinden doğan tazminat talepleri"
+  ]
+}
