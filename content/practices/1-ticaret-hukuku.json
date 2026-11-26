@@ -3,13 +3,15 @@
   "subtitle": "Hukuku",
   "order": 1,
   "image": "/assets/images/businessman-touching-virtual-screen.jpg",
-  "description": "Ticari işletmelerin faaliyetlerinden, ticari işlemlerden ve piyasa ilişkilerinden kaynaklanan hukuki süreçlerin yürütülmesi; ticari uyuşmazlıkların değerlendirilmesi ve çözümüne yönelik hukuki danışmanlık.",
+  "description": "Ticari işletmelerin faaliyetlerinden, ticari işlemlerden ve piyasa ilişkilerinden kaynaklanan hukuki süreçlerin yürütülmesi; ticari uyuşmazlıkların ve işletmelerin ticari faaliyetlerine ilişkin hukuki risklerin değerlendirilmesi.",
   "services": [
-    "Ticari işletmelerin faaliyetlerinden doğan hukuki uyuşmazlıklar",
-    "Haksız rekabet ve ticari itibarın korunması",
+    "Ticari işletme ve tacir ilişkilerinden doğan uyuşmazlıklar",
     "Ticari alacak ve tazminat uyuşmazlıkları",
-    "Bayilik, distribütörlük ve yetkili satıcılık ilişkilerinden doğan uyuşmazlıklar",
+    "Haksız rekabet ve ticari itibarın korunması",
     "Ticaret unvanı ve işletme adının korunması",
+    "Bayilik, distribütörlük ve acentelik ilişkilerinden doğan uyuşmazlıklar",
+    "Ticari satış ve tedarik ilişkileri",
+    "Kıymetli evrak ve kambiyo senetlerinden doğan uyuşmazlıklar",
     "Ticari davalar ve uyuşmazlık çözüm süreçleri"
   ]
 }
