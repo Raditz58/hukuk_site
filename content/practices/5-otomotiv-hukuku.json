@@ -3,13 +3,16 @@
   "subtitle": "Hukuku",
   "order": 5,
   "image": "/assets/images/haruudu-shopping-bag-10549969_1920.jpg",
-  "description": "Tüketici işlemlerinden kaynaklanan hukuki ilişkilerin değerlendirilmesi, tüketici haklarının korunması, uyuşmazlıkların çözümü ve tüketici mevzuatına uyum süreçlerinin yürütülmesi.",
+  "description": "Tüketici işlemlerinden kaynaklanan hukuki ilişkilerin değerlendirilmesi, tüketici haklarının korunması ve tüketici uyuşmazlıklarının ilgili mevzuat kapsamında çözümüne yönelik hukuki danışmanlık ve temsil.",
   "services": [
     "Ayıplı mal ve hizmetlerden doğan uyuşmazlıklar",
     "Tüketici sözleşmelerinin hazırlanması ve incelenmesi",
     "Tüketici hakem heyeti ve tüketici mahkemesi süreçleri",
     "Mesafeli satış ve abonelik sözleşmeleri",
     "Haksız şartlar ve tüketici mevzuatına aykırı uygulamalar",
-    "Bedel iadesi, ürün değişimi ve tazminat talepleri"
+    "Bedel iadesi, ürün değişimi ve tazminat talepleri",
+    "Garanti ve satış sonrası hizmet süreçleri",
+    "Tüketicinin cayma hakkı ve bedel iadesi talepleri",
+    "Tüketici kredileri ve finansal tüketici uyuşmazlıkları"
   ]
 }
