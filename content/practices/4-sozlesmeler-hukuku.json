@@ -3,11 +3,17 @@
   "subtitle": "Hukuku",
   "order": 4,
   "image": "/assets/images/johan_benitez99co-ai-generated-9306725_1920.png",
-  "description": "Yerli ve uluslararası sözleşmelerin hazırlanması, incelenmesi, müzakere edilmesi ve revize edilmesi; sözleşmesel ilişkilerden doğabilecek hukuki risklerin değerlendirilmesi ve sözleşme süreçlerinin yürütülmesi.",
+  "description": "Yerli ve uluslararası sözleşmelerin hazırlanması, incelenmesi, müzakere edilmesi ve revize edilmesi; sözleşmesel yükümlülüklerin, tarafların hak ve sorumluluklarının ve sözleşmeden doğabilecek hukuki risklerin değerlendirilmesi.",
   "services": [
     "Alım-satım, tedarik ve dağıtım sözleşmeleri",
-    "Gizlilik (NDA) ve iş birliği protokolleri",
-    "Franchising ve acentelik sözleşmeleri",
-    "Sözleşme ihlali ve tazminat talepleri"
+    "Bayilik, distribütörlük, acentelik ve franchise sözleşmeleri",
+    "Hizmet ve danışmanlık sözleşmeleri",
+    "Eser ve alt yüklenici sözleşmeleri",
+    "Kira ve kullanım hakkı sözleşmeleri",
+    "Taşıma, lojistik ve depolama sözleşmeleri",
+    "Lisans, marka kullanım ve fikrî mülkiyet devir sözleşmeleri",
+    "Gizlilik, rekabet etmeme ve münhasırlık sözleşmeleri",
+    "Sponsorluk, reklam ve pazarlama sözleşmeleri",
+    "Sözleşmelerin devri, değiştirilmesi ve sona erdirilmesi"
   ]
 }
