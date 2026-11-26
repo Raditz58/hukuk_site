@@ -6,10 +6,12 @@
   "description": "Aile ilişkilerinden doğan hukuki uyuşmazlıkların çözümü, aile bireylerinin hak ve menfaatlerinin korunması ve aile hukukuna ilişkin süreçlerin yürütülmesi.",
   "services": [
     "Anlaşmalı ve çekişmeli boşanma davaları",
-    "Velayet ve kişisel ilişki kurulması",
+    "Velayet ve çocukla kişisel ilişki kurulması",
     "Nafaka talepleri ve nafaka uyuşmazlıkları",
     "Mal rejiminin tasfiyesi ve mal paylaşımı",
     "Maddi ve manevi tazminat talepleri",
-    "Aile konutu ve aile hukukundan doğan diğer uyuşmazlıklar"
+    "Aile konutuna ilişkin hukuki uyuşmazlıklar",
+    "Mal rejimi sözleşmelerinin hazırlanması ve incelenmesi",
+    "Soybağının kurulması ve soybağına ilişkin davalar"
   ]
 }
